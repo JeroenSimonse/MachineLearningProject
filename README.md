@@ -31,12 +31,12 @@ Tools that were used:
 
 ---
 
-##Usage
+## Usage
 Make sure the path to the test and training data is adjusted to the right path, otherwise this code doesn't work. 
 
 ---
 
-##Note
+## Note
 The results of our first task were very good and scored an accuracy of ~97%. Although the model of task 1 was performing very good, the results of task 2 were disappointing.
 This was largely due to the approach we had, which was a *fixed* sliding window that selected and classified 1/5th of the image per prediction. However, due to the letters
 being in random places within the image, this did not work. Perhaps edge detecting would have worked better. 
